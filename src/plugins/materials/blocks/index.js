@@ -37,4 +37,43 @@ export default (editor) => {
     content: sample,
     attributes: { class: "fa fa-hand-rock-o" }
   })
+
+  bm.add('Bullets', {
+    id: 'Bullets',
+    label: 'Bullets',
+    category: 'Basic Elements',
+    attributes: {
+      class: 'gjs-block bullets',
+      type: 'bullets',
+    },
+    content: {
+      type: 'bullets',
+    },
+  })
+
+  bm.add('Divider', {
+    id: 'Divider',
+    label: 'Divider',
+    category: 'Basic Elements',
+    attributes: {
+      class: 'gjs-block divider',
+      type: 'divider',
+    },
+    content: {
+      type: 'divider',
+    },
+  })
+
+  bm.add('Button', {
+    id: 'Button',
+    label: 'Button',
+    category: 'Basic Elements',
+    attributes: {
+      class: 'gjs-block button',
+      type: 'button',
+    },
+    content: {
+      type: 'button',
+    },
+  })
 }
